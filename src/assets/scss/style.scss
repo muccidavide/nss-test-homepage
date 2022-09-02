@@ -1,0 +1,51 @@
+@import '~/node_modules/bootstrap/scss/bootstrap.scss';
+@import '~/node_modules/bootstrap-icons/font/bootstrap-icons.css';
+
+/* Reset Rules */
+img {
+    max-width: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: local("Montserrat-Regular"),
+    url(./assets/fonts/Merriweather-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: local("Montserrat-Bold"),
+    url(./assets/fonts/Montserrat-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Miller-Display";
+  src: local("Miller-Display_30501"),
+    url(./assets/fonts/Miller-Display_30501.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Merriweather-Regular";
+  src: local("Merriweather-Regular"),
+    url(./assets/fonts/Merriweather-Regular.ttf) format("truetype");
+}
+
+#app {
+  font-family: "Montserrat-Regular", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Commons */
+.bold {
+  font-family: "Montserrat-Bold", Helvetica, Arial, sans-serif;
+}
+.display {
+  font-family: "Miller-Display", Helvetica, Arial, sans-serif;
+}
+.regular-2 {
+  font-family: "Merriweather-Regular", Helvetica, Arial, sans-serif;
+}
